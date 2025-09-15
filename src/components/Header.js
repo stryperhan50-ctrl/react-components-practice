@@ -4,7 +4,7 @@ import './Header.css';
 function Header() {
   return (
     <header className="app-header">
-      <h1>프롬프트 마켓</h1>
+      <h1>프롬프트 샵</h1>
     </header>
   );
 }

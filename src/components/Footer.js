@@ -5,7 +5,7 @@ function Footer() {
   const currentYear = new Date().getFullYear();
   return (
     <footer className="app-footer">
-      <p>&copy; {currentYear} Prompt Market. All rights reserved.</p>
+      <p>&copy; {currentYear} Prompt Shop. All rights reserved.</p>
     </footer>
   );
 }
