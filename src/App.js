@@ -1,13 +1,10 @@
 import './App.css';
-import Header from './components/Header';
-import Footer from './components/Footer';
+import AIContentPlanner from './components/AIContentPlanner';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <PromptDetail />
-      <Footer />
+      <AIContentPlanner />
     </div>
   );
 }
