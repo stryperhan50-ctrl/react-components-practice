@@ -1,10 +1,16 @@
+import { Outlet } from 'react-router-dom';
 import './App.css';
-import AIContentPlanner from './components/AIContentPlanner';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <AIContentPlanner />
+      <Header />
+      <main>
+        <Outlet />
+      </main>
+      <Footer />
     </div>
   );
 }
